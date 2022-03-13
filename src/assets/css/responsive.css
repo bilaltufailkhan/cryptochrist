@@ -1,0 +1,261 @@
+.vertical__line {
+  width: 3px;
+  height: 100%;
+  background: rgba(6, 255, 240, 1);
+  position: absolute;
+  top: 0;
+  left: calc(15px - 1.5px);
+}
+
+#logo {
+  width: 10rem !important;
+  height: auto;
+}
+
+#style__heading {
+  position: relative;
+}
+#style__heading h1 {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 4.75rem !important;
+}
+
+@media (max-width: 767.98px) {
+  #style__heading h1 {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3.5rem !important;
+  }
+}
+@media (max-width: 567.98px) {
+  #style__heading h1 {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3rem !important;
+  }
+}
+
+#style__heading h2 {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 2.75rem !important;
+}
+#outline {
+  -webkit-text-stroke: 1.5px #06fff6;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  color: transparent;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 2.75rem;
+  z-index: -1;
+}
+
+#nftOutline {
+  -webkit-text-stroke: 1.5px #ffffff;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  color: transparent;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 3rem;
+  z-index: -1;
+}
+
+#heading {
+  color: #fff;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 2.75rem;
+}
+
+.brand__logo {
+  width: 7rem;
+  height: auto;
+}
+@media only screen and (max-width: 992px) {
+  .ellipse__8,
+  .ellipse__10 {
+    display: none;
+  }
+
+  .nav__main {
+    /* background: url("../img/Ellipse9.png") no-repeat right !important; */
+    width: 100% !important;
+    height: 300px !important;
+    background: transparent;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .nav__items {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .nav__foot {
+    margin-top: 100px;
+  }
+  .nav__foot .container {
+    max-width: 100%;
+  }
+  .nav__foot .container .footer {
+    width: 100%;
+  }
+  .mobile__nav {
+    height: 100vh;
+    z-index: 10001;
+    width: 100%;
+    background: #0a0a0a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 40px;
+  }
+
+  .nav__setting {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #mint__btn {
+    width: 500px;
+  }
+
+  .nav__main {
+    /* background: url("../img/Ellipse9.png") no-repeat right !important; */
+    width: 100% !important;
+    height: 100vh !important;
+    background: transparent;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav__main {
+    /* background: url("../img/Ellipse9.png") no-repeat right !important; */
+    width: 100% !important;
+    height: 600px !important;
+  }
+  .nav__bar {
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .nav__main {
+    position: relative;
+  }
+
+  #trust__card {
+    height: 217px;
+  }
+
+  .card__img > img {
+    /* margin-right: 1rem; */
+    width: 3rem;
+  }
+
+  #heading {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  #outline {
+    color: transparent;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  #span {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .nav__main {
+    position: relative;
+    z-index: 9999999;
+    height: 15rem;
+  }
+
+  #trust__card {
+    height: 217px;
+  }
+
+  .card__img > img {
+    /* margin-right: 1rem; */
+    width: 3rem;
+  }
+
+  #heading {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  #outline {
+    color: transparent;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  #span {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .nav__main {
+    position: relative;
+    z-index: 9999999;
+  }
+
+  #trust__card {
+    height: 217px;
+  }
+
+  .card__img > img {
+    /* margin-right: 1rem; */
+    width: 3rem;
+  }
+
+  #heading {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  #outline {
+    color: transparent;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  #span {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1px;
+  }
+}
